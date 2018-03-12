@@ -66,7 +66,11 @@ foreach($items_menu_tree as $item_li){
 echo $render_menu;
 
 ?>
-
+                <li class="nav-item text-center d-none d-lg-inline">
+                    <a class="nav-link" data-toggle="collapse" href="#collapseSearch" aria-expanded="false" aria-controls="collapseSearch">
+                        <i class="fa fa-search" aria-hidden="true"></i> Buscar 
+                    </a>
+                </li>
             </ul>
         </div>                   
     </nav>
